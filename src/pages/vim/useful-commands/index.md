@@ -15,6 +15,19 @@ title: Useful Commands
 **OR**
 - Type ZZ (save and quit)
 
+## Copying & pasting
+
+`yy` - yank (copy) a line
+`2yy` - yank (copy) 2 lines
+`yw` - yank (copy) the characters of the word from the cursor position to the start of the next word
+`y$` - yank (copy) to end of line
+`dd` - delete (cut) a line
+`2dd` - delete (cut) 2 lines
+`dw` - delete (cut) the characters of the word from the cursor position to the start of the next word
+`D` - delete (cut) to the end of the line
+`d$` - delete (cut) to the end of the line
+`x` - delete (cut) character
+
 ## Bare minimum functionality
 Most likely you'll find yourself in "normal" mode, it allows you to enter commands by pressing the colon `:` key.
 To get here from other modes you can type `ctrl + c` or `escape`.
